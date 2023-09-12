@@ -9,8 +9,8 @@ function App() {
         </h1>
       </header>
 
-      <main className="mx-auto max-w-2xl">
-        {new Array(10).fill('x').map((_, i) => (
+      <main className="mx-auto flex max-w-2xl flex-col items-center">
+        {new Array(15).fill('x').map((_, i) => (
           <img
             src={computerImageUrl}
             alt="Computer"
