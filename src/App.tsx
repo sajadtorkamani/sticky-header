@@ -9,7 +9,7 @@ function App() {
         </h1>
       </header>
 
-      <main className="mx-auto flex max-w-2xl flex-col items-center">
+      <main className="mx-auto flex max-w-2xl flex-col items-center border border-red-800">
         {new Array(15).fill('x').map((_, i) => (
           <img
             src={computerImageUrl}
